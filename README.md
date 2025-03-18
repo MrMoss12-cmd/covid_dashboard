@@ -1,99 +1,99 @@
-# Dashboard COVID-19
+# COVID-19 Dashboard
 
-Un dashboard interactivo desarrollado con Django para visualizar datos relacionados con la pandemia de COVID-19.
+An interactive dashboard developed with Django to visualize data related to the COVID-19 pandemic.
 
-## Características
+## Features
 
-- Visualización de casos totales, muertes y recuperaciones
-- Gráficos interactivos con Chart.js
-- Interfaz responsiva usando Bootstrap
-- Actualización automática de datos
+- Visualization of total cases, deaths, and recoveries
+- Interactive charts with Chart.js
+- Responsive interface using Bootstrap
+- Automatic data updates
 
-## Requisitos
+## Requirements
 
-- Python 3.8 o superior
+- Python 3.8 or higher
 - Django 5.1
-- Otras dependencias listadas en `requirements.txt`
+- Other dependencies listed in `requirements.txt`
 
-## Instalación
+## Installation
 
-1. Clonar el repositorio:
+1. Clone the repository:
    ```bash
-   git clone https://github.com/tu-usuario/covid-dashboard.git
+   git clone https://github.com/your-username/covid-dashboard.git
    cd covid-dashboard
    ```
 
-2. Crear y activar el entorno virtual:
+2. Create and activate the virtual environment:
    ```bash
    python -m venv .venv
-   # En Windows
+   # On Windows
    .venv\Scripts\activate
-   # En Linux/Mac
+   # On Linux/Mac
    source .venv/bin/activate
    ```
 
-3. Instalar dependencias:
+3. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 
-4. Configurar las variables de entorno:
-   - Crear un archivo `.env` en la raíz del proyecto
-   - Agregar las variables necesarias (ver `.env.example`)
+4. Configure environment variables:
+   - Create a `.env` file in the project root
+   - Add the required variables (see `.env.example`)
 
-5. Realizar las migraciones:
+5. Run migrations:
    ```bash
    python manage.py migrate
    ```
 
-## Uso
+## Usage
 
-1. Iniciar el servidor de desarrollo:
+1. Start the development server:
    ```bash
    python manage.py runserver
    ```
 
-2. Abrir el navegador y visitar:
+2. Open your browser and visit:
    ```
    http://localhost:8000
    ```
 
-## Estructura del Proyecto
+## Project Structure
 
 ```
 covid_dashboard/
-├── covid_dashboard/     # Configuración principal del proyecto
-├── dashboard/          # Aplicación principal
-│   ├── management/     # Comandos personalizados
-│   ├── migrations/     # Migraciones de la base de datos
-│   ├── templates/      # Plantillas HTML
-│   ├── models.py       # Modelos de datos
-│   ├── views.py        # Lógica de las vistas
-│   └── urls.py         # Configuración de URLs
-└── manage.py          # Script de administración de Django
+├── covid_dashboard/     # Main project configuration
+├── dashboard/          # Main application
+│   ├── management/     # Custom commands
+│   ├── migrations/     # Database migrations
+│   ├── templates/      # HTML templates
+│   ├── models.py       # Data models
+│   ├── views.py        # View logic
+│   └── urls.py         # URL configuration
+└── manage.py          # Django management script
 ```
 
-## Tecnologías Utilizadas
+## Technologies Used
 
-- Django - Framework web
-- Chart.js - Biblioteca de gráficos
-- Bootstrap - Framework CSS
-- SQLite - Base de datos
+- Django - Web framework
+- Chart.js - Charting library
+- Bootstrap - CSS framework
+- SQLite - Database
 
-## Contribuir
+## Contributing
 
-1. Fork el proyecto
-2. Crea una rama para tu característica (`git checkout -b feature/AmazingFeature`)
-3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
-4. Push a la rama (`git push origin feature/AmazingFeature`)
-5. Abre un Pull Request
+1. Fork the project
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-## Licencia
+## License
 
-Distribuido bajo la Licencia MIT. Ver `LICENSE` para más información.
+Distributed under the MIT License. See `LICENSE` for more information.
 
-## Contacto
+## Contact
 
-Tu Nombre - [@tu_twitter](https://twitter.com/tu_usuario)
+Elias Higuera Acosta - [@your_linkedind](https://www.linkedin.com/in/el%C3%ADas-higuera-acosta-/)
 
-Enlace del Proyecto: [https://github.com/tu-usuario/covid-dashboard](https://github.com/tu-usuario/covid-dashboard)
+Project Link: [https://github.com/MrMoss12-cmd/covid_dashboard](https://github.com/MrMoss12-cmd/covid_dashboard)
