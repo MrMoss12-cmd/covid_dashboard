@@ -94,6 +94,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Elias Higuera Acosta - [@your_linkedind](https://www.linkedin.com/in/el%C3%ADas-higuera-acosta-/)
+Elias Higuera Acosta - [https://www.linkedin.com/in/el%C3%ADas-higuera-acosta-/](https://www.linkedin.com/in/el%C3%ADas-higuera-acosta-/)
 
 Project Link: [https://github.com/MrMoss12-cmd/covid_dashboard](https://github.com/MrMoss12-cmd/covid_dashboard)
